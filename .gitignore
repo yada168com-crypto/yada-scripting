@@ -1,0 +1,12 @@
+# JANGAN PERNAH commit kredensial
+*token*
+*secret*
+*.key
+*.pem
+.env
+.env.*
+
+# file kerja lokal
+Drafts/
+PreviousScripts/
+*.local.json

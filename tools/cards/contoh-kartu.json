@@ -1,0 +1,26 @@
+{
+  "db": "ganti-dengan-id-database-anda",
+  "title": "JUDUL KARTU DI KALENDER",
+  "date": "2026-01-31",
+  "pillar": ["news"],
+  "author": ["nama author sesuai opsi di database"],
+  "link": "https://sumber-berita.example.com/artikel",
+  "status": "asking for approve",
+  "scripID": "Naskah utama, satu paragraf panjang. Isi bagian ini persis seperti yang akan dibacakan.",
+  "scripZH": "Terjemahan naskah ke bahasa lain, kalau bagian ini dipakai di database Anda.",
+  "caption": [
+    "Baris pertama caption.",
+    "Baris kedua. Tiap elemen array jadi satu paragraf terpisah di Notion.",
+    "#tagar #boleh #ditaruh #di #baris #terakhir"
+  ],
+  "ideas": [
+    "SUMBER:",
+    "Tautan dan ringkasan fakta yang dipakai, supaya bisa diperiksa ulang sebelum diproduksi.",
+    "KENAPA TOPIK INI:",
+    "Alasan topik ini dipilih.",
+    "KANDIDAT LAIN YANG TIDAK DIPAKAI:",
+    "Topik lain yang sempat dipertimbangkan beserta alasan ditolaknya.",
+    "CATATAN PRODUKSI:",
+    "Hal teknis untuk tahap perekaman dan penyuntingan."
+  ]
+}
