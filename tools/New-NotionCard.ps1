@@ -7,22 +7,24 @@
 
   File JSON-nya berisi:
   {
-    "db":      "347efe2f-4c21-8013-bdc4-d6eda3361135",
+    "db":      "<id-database-notion>",
     "title":   "JUDUL KARTU",
-    "date":    "2026-08-16",
+    "date":    "2026-01-31",
     "pillar":  ["news"],
-    "author":  ["claude code"],
+    "author":  ["nama author"],
     "link":    "https://...",
     "status":  "asking for approve",
-    "scripID": "isi scrip id",
-    "scripZH": "isi scrip zh",
+    "scripID": "isi naskah",
+    "scripZH": "isi terjemahan",
     "caption": ["baris 1", "baris 2"],
     "ideas":   ["baris 1", "baris 2"]
   }
+
+  Token disimpan di file teks TERPISAH, di luar repositori ini.
 #>
 param(
   [Parameter(Mandatory = $true)][string]$CardFile,
-  [string]$TokenFile = 'C:\jenny\AutoScript\PreviousScripts\notion-token.txt'
+  [string]$TokenFile = 'D:\rahasia\notion-token.txt'
 )
 
 $ErrorActionPreference = 'Stop'
